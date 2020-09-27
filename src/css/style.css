@@ -1,9 +1,14 @@
 /*.class {}  #id {}*/
 
 h1 {
-	color: red;
+	border: 2px solid #000;
+	color: rgba(0,200,100, 0.4); /*#fff - hex-кодировка цвета*/
 	text-align: center;
+	text-transform: uppercase;
 }
 ul {
 	color: red;
+}
+ {
+	background-color: red;
 }
