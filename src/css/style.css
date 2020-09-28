@@ -1,14 +1,59 @@
 /*.class {}  #id {}*/
-
+/*блочные элементы div, h*, p, ...*/
+/*строчные img, a, span, em, strong, ...*/
 h1 {
 	border: 2px solid #000;
 	color: rgba(0,200,100, 0.4); /*#fff - hex-кодировка цвета*/
 	text-align: center;
 	text-transform: uppercase;
 }
+
+p {
+	text-align: justify;
+}
+
+.lit {
+	font-style: italic;
+}
+
+.litdiv * {
+	box-sizing: border-box;
+}
+
+.pictxt {
+	background-color: #f9f9f9;
+	border: 1px solid #aeaeae;
+	padding: 5px;
+	width: 180px;
+	float: right;
+	margin: 5px;
+}
+
+.txt {
+	font-size: 14px;
+	text-align: left;
+}
+
+.litdiv {
+	 width: 300px;
+		background-color: #aeaeae;
+		padding: 0% 5% 0% 5%;
+		border: 2px solid black;
+		margin: 60px
+}
+
+.gall {
+	border: 1px solid #aeaeae;
+	display: inline-block;
+ box-sizing: border-box;
+ width: 300px;
+ padding: 10px;
+ margin: 5px;
+}
+
+
+
 ul {
 	color: red;
-}
- {
-	background-color: red;
+	text-align: justify;
 }
