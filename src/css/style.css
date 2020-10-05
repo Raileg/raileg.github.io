@@ -1,78 +1,98 @@
 /*.class {}  #id {}*/
 /*блочные элементы div, h*, p, ...*/
 /*строчные img, a, span, em, strong, ...*/
-h1 {
-	border: 2px solid #000;
-	color: rgba(0,200,100, 0.4); /*#fff - hex-кодировка цвета*/
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 80px;
-}
 
-p {
-	text-align: justify;
-}
-
-.topmenu {
-	background-color: #aeaeae;
- width: 100%;
- height: 60px;
- position: fixed;
- top: 0;
- left: 0;
-
-}
-
-.tmdiv {
-	display: inline-block;
-	border: 2px solid #000;
-	margin: 20px 1.5% 5px 1.5%;
-}
-
-
-
-.lit {
-	font-style: italic;
-}
-
-.litdiv * {
+* {
 	box-sizing: border-box;
 }
 
-.pictxt {
-	background-color: #f9f9f9;
-	border: 1px solid #aeaeae;
-	padding: 5px;
-	width: 180px;
-	float: right;
-	margin: 5px;
+body {
+	font-family: Tahoma, sans-serif;
+	line-height: 1.5;
+	color: #333;
 }
 
-.txt {
-	font-size: 14px;
-	text-align: left;
+button {
+	font-size: 18px;
+	color: #fff;
+	background-color: #2727d9;
+	border: none;
+	width: 300px;
+	height: 60px;
+	display: block;
+	margin: 11px auto;
 }
 
-.litdiv {
-	 width: 300px;
-		background-color: #aeaeae;
-		padding: 0% 5% 0% 5%;
-		border: 2px solid black;
-		margin: 60px
+.section {
+	padding: 30px 10%;
 }
 
-.gall {
-	border: 1px solid #aeaeae;
+.main {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.header {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.header span {
+	display: block;
+	font-weight: 300;
+}
+
+.header strong {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.video, .form {
 	display: inline-block;
- box-sizing: border-box;
- width: 300px;
- padding: 10px;
- margin: 5px;
+	vertical-align: top;
 }
 
+.form {
+	margin-left: 30px;
+	text-align: center;
+	padding: 20px;
+	border: 5px solid #2727d9;
+}
 
+.form input {
+	margin-top: 10px;
+	width: 300px;
+	padding: 17px;
+	font-size: 18px;
+	border: 1px solid #333;
+	display: block;
+}
 
-ul {
-	color: red;
-	text-align: justify;
+.form-header {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.col {
+	display: inline-block;
+	width: 130px;
+	margin: 10px 50px;
+}
+
+.features-header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.features {
+	text-align: center;
+	margin: 50px 50px;
+}
+
+.features p {
+	font-weight: 900;
 }
