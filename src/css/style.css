@@ -1,4 +1,7 @@
 /*.class {}  #id {}*/
 /*блочные элементы div, h*, p, ...*/
 /*строчные img, a, span, em, strong, ...*/
-
+p {
+	text-align: center;
+	margin-top: 20px;
+}
