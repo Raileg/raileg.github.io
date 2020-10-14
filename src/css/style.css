@@ -5,49 +5,39 @@
 .section {	
 padding: 30px 0;
 }
-
 .header {
 	line-height: 1.5;
 	font-size: 20px;
 	margin: 60px auto;
 }
-
 .header span {
 	display: block;
 }
-
 .form {
 	border: 5px solid #2727d9;
 	padding: 30px 20px;
 }
-
 .form input {
 	margin-bottom: 12px;
 }
-
 .form-btn {
 	margin: 12px auto;
 	background-color: #2727d9;
 }
-
 .form-header, .section-header  {
 	margin-bottom: 20px;
 	font-size: 20px;
 	font-weight: 900;
 }
-
 .feature {
 	margin: 60px auto;
 }
-
 .feature p {
 	margin-top: 20px;
 }
-
 .video {
 	margin-bottom: 30px;
 }
-
 .feature-box {
 	height: 160px;
 }
