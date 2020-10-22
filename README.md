@@ -1,2 +1,2 @@
-# project_web
+# Рустам Мулюков
 learning web
