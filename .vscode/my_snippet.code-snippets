@@ -17,11 +17,12 @@
 	// }
 	"colums":{
 		"prefix": "col-12",
+		"scope": "html",
 		"body": [
    "<div class=\"row\">",
-			"	<div class=\"col-xs-12\">",
-			"		<p></p>",
-			"	</div>",
+			 "<div class=\"col-xs-12\">",
+			  "<p></p>",
+			 "</div>",
 			"</div>"
 		]
 	}
