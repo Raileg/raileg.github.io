@@ -1,4 +1,4 @@
 # Рустам Мулюков
 learning web
 
-[project](raileg.github.io/src/)
+[project](raileg.github.io/practice/src/index.html)
